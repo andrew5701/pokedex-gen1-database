@@ -1,18 +1,21 @@
 # Generation 1 Pokédex JavaFX
 
 ## Technologies Used
-This project utilizes the following technologies:
+This project is built using the following technologies:
 
-- **Java**
-- **JavaFX**
-- **Microsoft SQL Server**
+- **Java**: The core programming language used for the application.
+- **JavaFX**: Used for creating the graphical user interface.
+- **Microsoft SQL Server**: Database management system to store Pokédex data.
 
-[Download the Required SQL file for MS SQL Server](https://github.com/andrew5701/pokedex-gen1-database/raw/main/src/main/resources/com/mycompany/databaseexample/PokemonDatabase.sql)
+## Resources
 
-# Database Visio Chart
+- [Download the Required SQL file for MS SQL Server](https://github.com/andrew5701/pokedex-gen1-database/raw/main/src/main/resources/com/mycompany/databaseexample/PokemonDatabase.sql)
 
+## Database Structure Visualization
 
-<img width="337" alt="Visio Chart" src="https://github.com/andrew5701/pokedex-gen1-database/assets/114825896/8d8a5ba5-0622-4a09-9ee8-107a0841ed73">
+<p align="center">
+  <img src="https://github.com/andrew5701/pokedex-gen1-database/assets/114825896/8d8a5ba5-0622-4a09-9ee8-107a0841ed73" alt="Database Visio Chart" width="500">
+</p>
 
 ## Disclaimer
-This is an unofficial, fan-made project and is not endorsed by or affiliated with Nintendo or Game Freak. All original rights in the characters, settings, and other elements used in this project belong to Nintendo and Game Freak. This project is created for non-commercial, educational purposes only.
+This project is an unofficial, fan-made effort and is not endorsed by or affiliated with Nintendo or Game Freak. It is developed for non-commercial, educational purposes only, and all original rights in the characters, settings, and other elements belong to Nintendo and Game Freak.
