@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="600.0" prefWidth="947.0" style="-fx-background-image: url('file:///C:/Users/ak7272/Desktop/pkm_signup.png');" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.databaseexample.SignUpController">
+   <children>
+      <Label layoutX="279.0" layoutY="73.0" text="Sign Up" textFill="WHITE" />
+      <TextField fx:id="suUsernameText" layoutX="91.0" layoutY="115.0" prefHeight="35.0" prefWidth="151.0" />
+      <TextField fx:id="suPasswordText" layoutX="91.0" layoutY="169.0" prefHeight="35.0" prefWidth="151.0" />
+      <Label layoutX="8.0" layoutY="122.0" prefHeight="27.0" prefWidth="81.0" text="Username" textFill="WHITE" />
+      <Label layoutX="8.0" layoutY="175.0" text="Password" textFill="WHITE" />
+      <Label layoutX="290.0" layoutY="141.0" text="Name" textFill="WHITE" />
+      <TextField fx:id="trainerNameText" layoutX="355.0" layoutY="135.0" prefHeight="35.0" prefWidth="151.0" />
+      <Button layoutX="91.0" layoutY="240.0" mnemonicParsing="false" onAction="#goBack" text="Go back" />
+      <Button layoutX="207.0" layoutY="240.0" mnemonicParsing="false" onAction="#createUser" text="Create User" />
+      <RadioButton fx:id="beginnerRadio" layoutX="355.0" layoutY="240.0" mnemonicParsing="false" onAction="#beginnerRadioPress" text="Beginner" textFill="WHITE" />
+      <RadioButton fx:id="masterRadio" layoutX="355.0" layoutY="279.0" mnemonicParsing="false" onAction="#masterRadioPress" text="Pokemon Master" textFill="WHITE" />
+      <RadioButton fx:id="legendRadio" layoutX="355.0" layoutY="318.0" mnemonicParsing="false" onAction="#legendRadioPress" text="Pokemon Legend" textFill="WHITE" />
+      <Label layoutX="367.0" layoutY="195.0" text="Select your rank" textFill="WHITE" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="400.0" prefWidth="999.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.databaseexample.TrainerViewerController">
+    <top>
+        <BorderPane styleClass="header-section" stylesheets="@demo.css">
+            <left>
+                <Label id="header-text" text="Trainer Table" />
+            </left>
+         <right>
+            <ImageView fitHeight="41.0" fitWidth="226.0" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER">
+               <image>
+                  <Image url="@../images/catchemall.png" />
+               </image>
+            </ImageView>
+         </right>
+         <center>
+            <Label fx:id="textToChange2" text="Trainer" BorderPane.alignment="CENTER" />
+         </center>
+        </BorderPane>
+    </top>
+    <center>
+        <VBox fx:id="vBox" minHeight="600.0" prefHeight="500.0" styleClass="content-section">
+            <children>
+            
+                      <!-- container using pref size as max size to not grow larger than the image -->
+                <VBox maxHeight="-Infinity" maxWidth="-Infinity" styleClass="my-rect" stylesheets="@demo.css" />  
+            
+            
+         <ScrollPane fx:id="scroll" fitToHeight="true" fitToWidth="true">
+    <content>
+        <FlowPane fx:id="trainerPane" alignment="CENTER" hgap="10" vgap="10">
+            <!-- Dynamic Pokémon content will be added here -->
+        </FlowPane>
+    </content>
+</ScrollPane>
+            <HBox prefHeight="100.0" prefWidth="200.0" spacing="10.0">
+               <children>
+                  <TextField fx:id="nameTextField" promptText="Search by Name" />
+                  <TextField fx:id="usernameTextField" promptText="Search By Username" />
+                  <Button mnemonicParsing="false" onAction="#searchTrainer" text="Search" />
+                  <Button mnemonicParsing="false" onAction="#handleShowAllRecords" text="Show All Trainers" />
+                  <Button mnemonicParsing="false" onAction="#executeTransaction" text="Transaction" />
+                  <Button mnemonicParsing="false" onAction="#performDirtyRead" text="Dirty Read" />
+                  <Button mnemonicParsing="false" onAction="#signOut" text="Sign Out" />
+                  <Button fx:id="uploadButton" mnemonicParsing="false" onAction="#uploadProfPic" text="Upload your Pic." />
+                  <Button mnemonicParsing="false" onAction="#tradeWith" text="Trade" />
+               </children>
+            </HBox>
+                
+                  </children>
+            </VBox>
+
+               
+        
+
+    </center>
+    <bottom>
+        <HBox id="footer-section" alignment="CENTER" minHeight="63.0" prefHeight="63.0" prefWidth="1090.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label text="Created by: Andrew Krasuski and Kyle Secor">
+               <font>
+                  <Font name="Gadugi" size="18.0" />
+               </font>
+               <HBox.margin>
+                  <Insets top="10.0" />
+               </HBox.margin>
+            </Label>
+         </children>
+        </HBox>
+    </bottom>
+    
+    
+</BorderPane>

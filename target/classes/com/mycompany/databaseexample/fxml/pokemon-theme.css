@@ -1,0 +1,52 @@
+.root {
+    /* General application background */
+    -fx-background-color: #F8F8F8;
+}
+
+.header-section {
+    /* Header styling */
+    -fx-background-color: #FF0000;
+    -fx-padding: 10px;
+    -fx-alignment: center;
+}
+
+.header-section #header-text {
+    /* Header text styling */
+    -fx-font-size: 24px;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+
+.sidebar-section {
+    /* Sidebar styling */
+    -fx-background-color: #3B4CCA;
+    -fx-padding: 10px;
+    -fx-spacing: 5px; /* spacing between elements */
+}
+
+.sidebar-section Button {
+    /* Styling for buttons in the sidebar */
+    -fx-background-color: #FFDE00;
+    -fx-text-fill: #000000;
+    -fx-font-weight: bold;
+    -fx-border-color: #000000;
+    -fx-border-width: 2px;
+    -fx-padding: 10px;
+    -fx-font-size: 14px;
+}
+
+.content-section {
+    /* Content area styling */
+    -fx-padding: 10px;
+}
+
+.pokemonFlowPane {
+    -fx-hgrow: always; /* This will make the FlowPane grow horizontally */
+    -fx-alignment: center;
+}
+
+#mainPane {
+    /* Styling for the main BorderPane */
+}
+
+/* Add any additional specific styling as needed */
