@@ -9,7 +9,9 @@ This project utilizes the following technologies:
 
 [Download the Required SQL file for MS SQL Server](https://github.com/andrew5701/pokedex-gen1-database/raw/main/src/main/resources/com/mycompany/databaseexample/PokemonDatabase.sql)
 
-#Database Visio Chart
+# Database Visio Chart
+
+
 <img width="337" alt="Visio Chart" src="https://github.com/andrew5701/pokedex-gen1-database/assets/114825896/8d8a5ba5-0622-4a09-9ee8-107a0841ed73">
 
 ## Disclaimer
