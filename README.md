@@ -9,7 +9,7 @@ This project is built using the following technologies:
 
 ## Resources
 
-- [Download the Required SQL file for MS SQL Server](https://github.com/andrew5701/pokedex-gen1-database/raw/main/src/main/resources/com/mycompany/databaseexample/PokemonDatabase.sql)
+- [Download the Required SQL file for MS SQL Server]([https://github.com/andrew5701/pokedex-gen1-database/raw/main/src/main/resources/com/mycompany/databaseexample/PokemonDatabase.sql](https://github.com/andrew5701/pokedex-gen1-database/blob/main/src/main/resources/com/mycompany/databaseexample/PokemonDatabase.sql))
 
 ## Database Structure Visualization
 
