@@ -18,4 +18,4 @@ This project is built using the following technologies:
 </p>
 
 ## Disclaimer
-This project is an unofficial, fan-made effort and is not endorsed by or affiliated with Nintendo or Game Freak. It is developed for non-commercial, educational purposes only, and all original rights in the characters, settings, and other elements belong to Nintendo and Game Freak.
+This project is an unofficial, fan-made effort and is not endorsed by or affiliated with Nintendo or Game Freak or The Pokémon Company. It is developed for non-commercial, educational purposes only, and all original rights in the characters, settings, and other elements belong to Nintendo, Game Freak, and The Pokémon Company.
